@@ -1,0 +1,48 @@
+.page {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  min-height: 80vh;
+  background-image: url("../../assets/front.png");
+  background-size: cover;
+  background-position: center;
+}
+.page h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.page p {
+  font-size: 16px;
+  color: #555;
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+
+.button {
+  display: flex;
+  gap: 16px;
+}
+.book {
+  background-color: #c0392b;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Outline button */
+.explore {
+  border: 1.5px solid #333;
+  color: #333;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+}
