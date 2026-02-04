@@ -1,0 +1,11 @@
+.btn{
+    border: 1px solid #2C2F24;
+    font-family: var(--DMSans-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    color: #182226;
+    width: 10vw;
+    height: 6vh;
+    border-radius: 118px;
+    background-color:transparent;
+}

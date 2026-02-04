@@ -1,0 +1,55 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.logo>p{
+    text-align: center;
+    font-family: var(--Playfair-font-family);
+    color: #474747;
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.logoimg{
+    height: 7vh;
+    width: 5vw
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    align-items: center;
+    width: 35%;
+    height: 6vh;
+}
+
+.item{
+    padding: 0.3rem 1rem;
+}
+.item>a{
+    text-decoration: none;
+    color: #2C2F24;
+    font-family: var(--DMSans-font-family);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item:hover{
+    background-color: #DBDFD0;
+    border-radius: 15px;
+}
