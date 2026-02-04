@@ -1,0 +1,32 @@
+.nav {
+    background-color:  #474747;
+    color: #F9F9F7;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    align-items: center;
+    font-family: var(--DMSans-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    height: 6vh;
+}
+
+.contact {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.item{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0.2rem;
+}
